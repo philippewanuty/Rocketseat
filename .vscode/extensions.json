@@ -1,0 +1,28 @@
+{
+  "recommendations": [
+    "aaron-bond.better-comments",
+    "formulahendry.code-runner",
+    "adpyke.codesnap",
+    "naumovs.color-highlight",
+    "pranaygp.vscode-css-peek",
+    "batisteo.vscode-django",
+    "dracula-theme.theme-dracula",
+    "editorconfig.editorconfig",
+    "dbaeumer.vscode-eslint",
+    "figma.figma-vscode-extension",
+    "oderwat.indent-rainbow",
+    "zignd.html-css-class-completion",
+    "xabikos.javascriptsnippets",
+    "ms-vscode.js-debug-nightly",
+    "ritwickdey.liveserver",
+    "pkief.material-icon-theme",
+    "mongodb.mongodb-vscode",
+    "miramac.vscode-exec-node",
+    "christian-kohler.path-intellisense",
+    "esbenp.prettier-vscode",
+    "standard.vscode-standard",
+    "gruntfuggly.todo-tree",
+    "vscode-icons-team.vscode-icons",
+    "tomoki1207.pdf"
+  ]
+}

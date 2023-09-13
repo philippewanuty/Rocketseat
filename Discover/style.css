@@ -1,0 +1,76 @@
+* {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(assets/bg-desktop.jpg);
+}
+
+#profile {
+  width: 588px;
+  height: 192px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px;
+}
+
+#profile > p {
+  color: white;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+#selectButton {
+  height: 40px;
+  width: 588px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+img {
+  width: 112px;
+}
+
+#container1 {
+  width: 588px;
+  margin: auto;
+  padding: 24px;
+}
+
+#buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+#buttons > input {
+  width: 540px;
+  height: 56px;
+  border-radius: 8px;
+  padding: 16px 24px;
+  margin: auto;
+}
+
+footer {
+  color: white;
+  text-align: center;
+}
+
+footer > p {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+}
