@@ -17,6 +17,7 @@
   --bg-url: url(assets/bg-desktop.jpg);
   --bg-mobile: url(assets/bg-mobile.jpg);
   --bg-button: url(assets/moon-stars.svg);
+  --bg-avatar: url(assets/avatar.png);
 }
 
 /*Change Theme*/
@@ -32,6 +33,7 @@
   --bg-url: url(assets/bg-desktop-light.jpg);
   --bg-mobile: url(assets/bg-mobile-light.jpg);
   --bg-button: url(assets/sun.svg);
+  --bg-avatar: url(assets/avatar-light.png);
 }
 
 /* background*/
@@ -61,6 +63,13 @@ main {
   height: 192px;
   text-align: center;
   padding: 24px;
+}
+#profile #avatar {
+  background: var(--bg-avatar) no-repeat center;
+  background-size: 114px;
+  width: 113px;
+  height: 113px;
+  margin: auto;
 }
 
 img {
@@ -100,9 +109,8 @@ img {
 }
 
 #switch button:hover {
- box-shadow: 0px 0px 1px 5px var(--link-hovercolor);
- transition: 0.5s;
-
+  box-shadow: 0px 0px 1px 5px var(--link-hovercolor);
+  transition: 0.5s;
 }
 
 #switch span {
