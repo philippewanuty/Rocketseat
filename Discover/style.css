@@ -6,71 +6,210 @@
   box-sizing: border-box;
 }
 
+:root {
+  --text-color: white;
+  --link-color: white;
+  --link-hovercolor: #ffffff33;
+  --buttons-color: rgba(255, 255, 255, 0.1);
+  --buttons-bordercolor: rgba(255, 255, 255, 0.5);
+  --buttons-colorhover: rgba(255, 255, 255, 0.05);
+  --buttons-bordercolorhover: #ffffff;
+  --bg-url: url(assets/bg-desktop.jpg);
+  --bg-mobile: url(assets/bg-mobile.jpg);
+  --bg-button: url(assets/moon-stars.svg);
+}
+
+/*Change Theme*/
+
+.ChangeTheme {
+  --text-color: black;
+  --link-color: black;
+  --link-hovercolor: #0000001a;
+  --buttons-color: #0000000d;
+  --buttons-bordercolor: #00000080;
+  --buttons-colorhover: #00000005;
+  --buttons-bordercolorhover: #000000;
+  --bg-url: url(assets/bg-desktop-light.jpg);
+  --bg-mobile: url(assets/bg-mobile-light.jpg);
+  --bg-button: url(assets/sun.svg);
+}
+
+/* background*/
+
 body {
-  background-image: url(assets/bg-desktop.jpg);
+  background: var(--bg-url) lightgray 50% / cover no-repeat;
+  min-height: 100vh;
+}
+
+@media (max-width: 767px) {
+  body {
+    background-image: var(--bg-mobile);
+  }
+}
+
+main {
+  max-width: 588px;
+  height: 712px;
+  margin: auto;
+  text-align: center;
+  color: var(--text-color);
+  padding-top: 56px;
 }
 
 #profile {
-  width: 588px;
+  max-width: 588px;
   height: 192px;
-  margin: auto;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
+  text-align: center;
   padding: 24px;
-}
-
-#profile > p {
-  color: white;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-}
-
-#selectButton {
-  height: 40px;
-  width: 588px;
-  margin: auto;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
 }
 
 img {
   width: 112px;
+  height: 112px;
 }
 
+#profile > p {
+  color: var(--text-color);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+/* switch */
+
+#switch {
+  width: 64px;
+  height: 24px;
+  /*border: solid red;*/
+  position: relative;
+  margin: 8px auto;
+}
+
+#switch button {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: white var(--bg-button) no-repeat center;
+
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+  left: 0;
+}
+
+#switch button:hover {
+ box-shadow: 0px 0px 1px 5px var(--link-hovercolor);
+ transition: 0.5s;
+
+}
+
+#switch span {
+  display: block;
+  width: 64px;
+  height: 24px;
+  border: 1px solid var(--buttons-bordercolor);
+  background: var(--buttons-color);
+  border-radius: 9999px;
+  backdrop-filter: blur(2px);
+}
+
+.ChangeTheme #switch button {
+  right: 0;
+  left: initial;
+  transition: 0.2s;
+}
+
+/* buttons */
+
 #container1 {
-  width: 588px;
+  max-width: 588px;
   margin: auto;
   padding: 24px;
 }
 
-#buttons {
+#buttons ul {
   display: flex;
   flex-direction: column;
+  gap: 16px;
+}
+#buttons > ul > li > a {
+  text-decoration: none;
+  color: var(--text-color);
+  display: flex;
   align-items: center;
   justify-content: center;
-  gap: 8px;
-}
-
-#buttons > input {
-  width: 540px;
   height: 56px;
   border-radius: 8px;
   padding: 16px 24px;
-  margin: auto;
+  border: 1px solid;
+  background-color: var(--buttons-color);
+  border-color: var(--buttons-bordercolor);
+  color: var(--text-color);
+  font-weight: 500;
+  transition: background 0.05s;
 }
 
+#buttons > ul > li {
+  list-style: none;
+}
+
+#buttons li :hover {
+  border: 1.5px solid var(--buttons-bordercolorhover);
+  background: var(--buttons-colorhover);
+  backdrop-filter: blur(4px);
+  transition: background 0.5s;
+}
+
+@media (max-width: 767px) {
+  #buttons > ul {
+    max-width: 312px;
+    margin: auto;
+  }
+}
+
+/*social media*/
+
+#socialLinks {
+  padding: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*gap: 8px;*/
+}
+#socialLinks > a > ion-icon {
+  width: 24px;
+  height: 24px;
+  color: var(--link-color);
+}
+
+#socialLinks > a {
+  padding: 16px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#socialLinks > a:hover {
+  background-color: var(--link-hovercolor);
+  transition: background 0.2s;
+  border-radius: 50%;
+}
+
+/* footer*/
+
 footer {
-  color: white;
-  text-align: center;
+  padding: 24px;
 }
 
 footer > p {
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
+  line-height: 24px;
+}
+
+footer > p > a {
+  color: var(--text-color);
 }
