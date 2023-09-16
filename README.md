@@ -28,26 +28,30 @@
     <th>Name</th>
     <th>Figma</th>
     <th>Readme</th>
+    <th>Resume</th>
     
     
   </tr>
   <tr>
-    <td> Ex#0</td>
+    <td> N#0</td>
     <td>DevLinks </td>
     <td><a href="https://www.figma.com/community/file/1187422022288947321">Link</a> </td>
     <td><a href="https://philippewanuty.com/Rocketseat/Discover/Discover.html">Link</a> </td>
+    <td>DevLinks is a responsive, theme-switching link aggregator that you can use as a business card on your social networks.</td>
   </tr>
   <tr>
-    <td>TBA </td>
-    <td>TBA </td>
-    <td>TBA </td>
-     <td>TBA </td>
+    <td>------</td>
+    <td>------</td>
+    <td>------</td>
+    <td>------</td>
+    <td>------</td>
   </tr>
   <tr>
-    <td>TBA </td> 
-    <td>TBA </td>
-    <td>TBA </td>
-    <td>TBA </td>
+    <td>-------</td> 
+    <td>------</td>
+    <td>------</td>
+    <td>------</td>
+    <td>------</td>
   </tr>
   
 </table>
