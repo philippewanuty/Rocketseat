@@ -7,10 +7,10 @@ Programa exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnolog
 </p>
 
 <p style="text-align: center;">
-  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#memo-licença">Licença</a>
+  <a href="#tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#licença">Licença</a>
 </p>
 
 <p style="text-align: center;">
@@ -19,7 +19,7 @@ Programa exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnolog
 
 <br>
 
-<h2>🚀 Tecnologias</h2>
+<h2 id='tecnologias'>🚀 Tecnologias</h2>
 
 <p>Esse projeto foi desenvolvido com as seguintes tecnologias:</p>
 
@@ -30,7 +30,7 @@ Programa exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnolog
   <li>Figma</li>
 </ul>
 
-<h2>💻 Projeto</h2>
+<h2 id='projeto'>💻 Projeto</h2>
 
 <p>O DevLinks é um agregador de links para usar como cartão de visitas online.</p>
 
@@ -39,11 +39,11 @@ Programa exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnolog
   <li><a href="https://lp.rocketseat.com.br/devlinks/inscricao?utm_source=github&utm_medium=descricao&utm_campaign=capture-devlinks&utm_term=organic&utm_content=descricao-github-mayk-brito">Assistir aulas</a></li>
 </ul>
 
-<h2>🔖 Layout</h2>
+<h2 id='layout'>🔖 Layout</h2>
 
 <p>Você pode visualizar o layout do projeto através <a href="https://www.figma.com/community/file/1187422022288947321">DESTE LINK</a>. É necessário ter conta no <a href="https://figma.com">Figma</a> para acessá-lo.</p>
 
-<h2>📝Licença</h2>
+<h2 id='licença'>📝Licença</h2>
 
 <p>Esse projeto está sob a licença MIT.</p>
 
