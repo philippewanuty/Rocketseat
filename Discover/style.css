@@ -95,16 +95,18 @@ img {
   background: white var(--bg-button) no-repeat center;
   border: none;
  
-
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
   z-index: 1;
   left: 0;
+
+  animation: slide-back 0.3s;
 }
 
 #switch button:hover {
-  box-shadow: 0px 0px 1px 5px var(--link-hovercolor);
+  
+  outline: 8px solid var(--link-hovercolor);
   transition: 0.5s;
 }
 
@@ -119,11 +121,8 @@ img {
 }
 
 .ChangeTheme #switch button {
-  right: 0;
-  left: initial;
-  transition: 0.2s;
+ animation: slide-in 0.3s forwards
 }
-
 /* buttons */
 
 #container1 {
@@ -215,4 +214,22 @@ footer > p {
 
 footer > p > a {
   color: var(--text-color);
+}
+
+@keyframes slide-in {
+from{
+  left: 0;
+}
+to {
+  left: 50%;
+}
+}
+
+@keyframes slide-back {
+from{
+  left: 50%;
+}
+to {
+  left: 0;
+}
 }
