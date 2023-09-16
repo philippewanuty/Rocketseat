@@ -29,6 +29,7 @@
     <th>Figma</th>
     <th>Readme</th>
     <th>Resume</th>
+    <th>Online project</th>
     
     
   </tr>
@@ -38,6 +39,7 @@
     <td><a href="https://www.figma.com/community/file/1187422022288947321">Link</a> </td>
     <td><a href="https://philippewanuty.com/Rocketseat/Discover/Discover.html">Link</a> </td>
     <td>DevLinks is a responsive, theme-switching link aggregator that you can use as a business card on your social networks.</td>
+     <td><a href="https://philippewanuty.com/Rocketseat/Discover/index.html">Link</a> </td>
   </tr>
   <tr>
     <td>------</td>
@@ -45,9 +47,12 @@
     <td>------</td>
     <td>------</td>
     <td>------</td>
+    <td>------</td>
+    
   </tr>
   <tr>
     <td>-------</td> 
+    <td>------</td>
     <td>------</td>
     <td>------</td>
     <td>------</td>
