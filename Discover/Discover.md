@@ -1,16 +1,14 @@
-
-
 <h1 style="text-align: center;">DevLinks</h1>
 
 <p style="text-align: center;">
-Programa exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnologias WEB. <br/>
+Exercise by Rocketseat for teaching web technologies. <br/>
 </p>
 
 <p style="text-align: center;">
-  <a href="#tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#licença">Licença</a>
+  <a href="#license">License</a>
 </p>
 
 <p style="text-align: center;">
@@ -19,35 +17,38 @@ Programa exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnolog
 
 <br>
 
-<h2 id='tecnologias'>🚀 Tecnologias</h2>
+<h2 id='technologies'>🚀 Technologies</h2>
 
-<p>Esse projeto foi desenvolvido com as seguintes tecnologias:</p>
+<p>This project was developed with the following technologies:</p>
 
 <ul>
-  <li>HTML e CSS</li>
+  <li>HTML and CSS</li>
   <li>JavaScript</li>
-  <li>Git e Github</li>
+  <li>Git and Github</li>
   <li>Figma</li>
 </ul>
 
-<h2 id='projeto'>💻 Projeto</h2>
+<h2 id='project'>💻 Project</h2>
 
-<p>O DevLinks é um agregador de links para usar como cartão de visitas online.</p>
+<p>DevLinks is a link aggregator to use as an online business card.</p>
 
 <ul>
-  <li><a href="https://maykbrito.github.io/devlinks">Acesse o projeto finalizado, online</a></li>
-  <li><a href="https://lp.rocketseat.com.br/devlinks/inscricao?utm_source=github&utm_medium=descricao&utm_campaign=capture-devlinks&utm_term=organic&utm_content=descricao-github-mayk-brito">Assistir aulas</a></li>
+  <li>
+  <a href="https://philippewanuty.com/Rocketseat/Discover/index.html">Access the finished project online<a>
+  </li>
+  <li>
+  <a href="https://github.com/philippewanuty/Rocketseat/tree/main/Discover">Github Repository</a>
+  </li>
 </ul>
 
 <h2 id='layout'>🔖 Layout</h2>
 
-<p>Você pode visualizar o layout do projeto através <a href="https://www.figma.com/community/file/1187422022288947321">DESTE LINK</a>. É necessário ter conta no <a href="https://figma.com">Figma</a> para acessá-lo.</p>
+<p>You can view the project's layout through <a href="https://www.figma.com/community/file/1187422022288947321"> Figma</a>.</p>
 
-<h2 id='licença'>📝Licença</h2>
+<h2 id='license'>📝License</h2>
 
-<p>Esse projeto está sob a licença MIT.</p>
+<p>This project is under the MIT license.</p>
 
 <hr>
 
-<p>Feito com ♥ by Rocketseat :wave: <a href="https://discord.gg/rocketseat">Participe da nossa comunidade!</a></p>
-
+<p>Made with ♥ by Philippe Wanuty.</p>
