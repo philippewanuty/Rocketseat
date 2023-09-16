@@ -43,7 +43,7 @@ Programa exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnolog
 
 <p>Você pode visualizar o layout do projeto através <a href="https://www.figma.com/community/file/1187422022288947321">DESTE LINK</a>. É necessário ter conta no <a href="https://figma.com">Figma</a> para acessá-lo.</p>
 
-<h2>:memo: Licença</h2>
+<h2>📝Licença</h2>
 
 <p>Esse projeto está sob a licença MIT.</p>
 
