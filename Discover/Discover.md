@@ -34,7 +34,7 @@ Exercise by Rocketseat for teaching web technologies. <br/>
 
 <ul>
   <li>
-  <a href="https://philippewanuty.com/Rocketseat/Discover/index.html">Access the finished project online<a>
+  <a href="https://philippewanuty.com/Rocketseat/Discover/index.html">Access the finished project online</a>
   </li>
   <li>
   <a href="https://github.com/philippewanuty/Rocketseat/tree/main/Discover">Github Repository</a>
