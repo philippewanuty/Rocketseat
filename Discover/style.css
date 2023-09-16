@@ -64,13 +64,6 @@ main {
   text-align: center;
   padding: 24px;
 }
-#profile #avatar {
-  background: var(--bg-avatar) no-repeat center;
-  background-size: 114px;
-  width: 113px;
-  height: 113px;
-  margin: auto;
-}
 
 img {
   width: 112px;
@@ -100,6 +93,8 @@ img {
   height: 32px;
   border-radius: 50%;
   background: white var(--bg-button) no-repeat center;
+  border: none;
+ 
 
   position: absolute;
   top: 50%;
