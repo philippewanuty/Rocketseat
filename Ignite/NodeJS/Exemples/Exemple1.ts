@@ -13,4 +13,3 @@ sendMail({
   name: 'Philippe',
   phone: '84999999999',
 });
-.
