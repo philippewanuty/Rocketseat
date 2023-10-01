@@ -5,10 +5,13 @@ export interface HorizontalTabsProps {
 
 export function HorizontalTabs({ title, link }: HorizontalTabsProps) {
   return (
-    <button className="group px-1 pb-4  hover:border-b-2 hover:border-violet-700">
-      <span className=" whitespace-nowrap font-medium text-sm text-zinc-500 group-hover:text-violet-700">
-        <a href={link}>{title}</a>
+    <button className="relative group px-1 pb-4 ">
+      <span className="whitespace-nowrap font-medium text-sm text-zinc-500 group-hover:text-violet-700">
+        <a href={link} className="">
+          {title}
+        </a>
       </span>
+      <div className="absolute left-0 right-0 h-0.5 -bottom-px group-hover:border-b-2 group-hover:border-violet-700 "></div>
     </button>
   );
 }

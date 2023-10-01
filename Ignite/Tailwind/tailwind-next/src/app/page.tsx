@@ -5,9 +5,9 @@ export default function Home() {
     //Main
     <main className="min-h-screen f">
       <div className="flex flex-col gap-6">
-        <h1 className=" text-3xl font-medium">Settings</h1>
+        <h1 className=" text-3xl font-medium text-zinc-900">Settings</h1>
 
-        <nav className="  flex flex-row gap-4 border-b ">
+        <nav className="  flex flex-row gap-4 border-b">
           <HorizontalTabs title="My details" link="#" />
           <HorizontalTabs title="Profile" link="#" />
           <HorizontalTabs title="Password" link="#" />
@@ -19,6 +19,7 @@ export default function Home() {
           <HorizontalTabs title="Integrations" link="#" />
           <HorizontalTabs title="API" link="#" />
         </nav>
+       
       </div>
 
       {/*Container*/}
