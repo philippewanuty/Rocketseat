@@ -11,6 +11,9 @@ dependencies:
   framer:
     specifier: ^2.4.1
     version: 2.4.1(framer-motion@10.16.4)(react-dom@18.2.0)(react@18.2.0)
+  framer-motion:
+    specifier: ^10.16.4
+    version: 10.16.4(react-dom@18.2.0)(react@18.2.0)
   lucide-react:
     specifier: ^0.279.0
     version: 0.279.0(react@18.2.0)
@@ -36,7 +39,7 @@ devDependencies:
     version: 2.1.0(eslint@8.50.0)(typescript@5.2.2)
   '@types/node':
     specifier: latest
-    version: 20.8.1
+    version: 20.8.2
   '@types/react':
     specifier: latest
     version: 18.2.24
@@ -666,8 +669,8 @@ packages:
     resolution: {integrity: sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==}
     dev: true
 
-  /@types/node@20.8.1:
-    resolution: {integrity: sha512-iN6stS2QGMl50pjH0h/dIfmcEUogljAreQZ+cubPw3ISWp5fJrZw9NOh/sDHJfw92A41hCU+Ls5zTIsNYzcnuA==}
+  /@types/node@20.8.2:
+    resolution: {integrity: sha512-Vvycsc9FQdwhxE3y3DzeIxuEJbWGDsnrxvMADzTDF/lcdR9/K+AQIeAghTQsHtotg/q0j3WEOYS/jQgSdWue3w==}
     dev: true
 
   /@types/prop-types@15.7.7:
