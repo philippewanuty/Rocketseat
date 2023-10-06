@@ -29,10 +29,10 @@ export function BodyPage() {
           </label>
           <div className=" grid gap-6 grid-cols-2  ">
             <InputRoot>
-              <InputControl id="firstName" placeholder="Philippe"></InputControl>
+              <InputControl id="firstName" defaultValue="Philippe"></InputControl>
             </InputRoot>
             <InputRoot>
-              <InputControl placeholder="Wanuty"></InputControl>
+              <InputControl defaultValue="Wanuty"></InputControl>
             </InputRoot>
           </div>
         </div>
@@ -48,7 +48,7 @@ export function BodyPage() {
               <InputPrefix>
                 <MailIcon className="h-5 w-5 text-zinc-500" />
               </InputPrefix>
-              <InputControl id="firstName" placeholder="contact@philippewanuty.com"></InputControl>
+              <InputControl id="email" type='email' defaultValue="contact@philippewanuty.com"></InputControl>
             </InputRoot>
           </div>
         </div>
@@ -73,6 +73,32 @@ export function BodyPage() {
         </div>
 
         {/* End - Role */}
+
+        {/* Country */}
+        <div className=" grid grid-cols-form pt-5 pb-5 border-b border-zinc-200  ">
+          <label className="text-sm font-medium text-zinc-700">Country</label>
+
+          <div className="">
+            <InputRoot>
+              <InputControl id="firstName" placeholder="Web Developer"></InputControl>
+            </InputRoot>
+          </div>
+        </div>
+
+        {/* End - Country */}
+
+        {/* Timezone */}
+        <div className=" grid grid-cols-form pt-5 pb-5 border-b border-zinc-200  ">
+          <label className="text-sm font-medium text-zinc-700">Timezone</label>
+
+          <div className="">
+            <InputRoot>
+              <InputControl id="firstName" placeholder="Web Developer"></InputControl>
+            </InputRoot>
+          </div>
+        </div>
+
+        {/* End - Timezone */}
       </form>
 
       {/* Final button */}
