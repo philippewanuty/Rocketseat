@@ -19,7 +19,6 @@ export function BodyPage() {
           </button>
         </div>
       </div>
-      {/* End-personal info */}
 
       {/* Name */}
       <form id="settings" className="pt-5 flex flex-col w-full ">
@@ -36,81 +35,97 @@ export function BodyPage() {
             </InputRoot>
           </div>
         </div>
-        {/* End-Name */}
 
         {/* Email Adress */}
 
         <div className=" grid grid-cols-form pt-5 pb-5 border-b border-zinc-200  ">
-          <label className="text-sm font-medium text-zinc-700">Email adress</label>
+          <label htmlFor="email" className="text-sm font-medium text-zinc-700">
+            Email adress
+          </label>
 
           <div className="">
             <InputRoot>
               <InputPrefix>
                 <MailIcon className="h-5 w-5 text-zinc-500" />
               </InputPrefix>
-              <InputControl id="email" type='email' defaultValue="contact@philippewanuty.com"></InputControl>
+              <InputControl id="email" type="email" defaultValue="contact@philippewanuty.com"></InputControl>
             </InputRoot>
           </div>
         </div>
-        {/* End-Email Adress */}
+
         {/* Your foto */}
-        <div className="flex items-center justify-between border-b  border-zinc-200 pb-5  ">
-          <div className="space-y-1 ">
-            <label className="text-sm font-medium text-zinc-700">Your photo</label>
-            <p className="text-sm font-normal text-zinc-500">This will be displayed on your profile.</p>
-          </div>
+
+        <div className="flex items-center justify-between border-b  border-zinc-200 pt-5 pb-5  ">
+          <label htmlFor="yourfoto" className="text-sm font-medium text-zinc-700">
+            Your photo
+            <span className="mt-0.5 block text-sm font-normal text-zinc-500">This will be displayed on your profile.</span>
+          </label>
         </div>
 
         {/* Role */}
         <div className=" grid grid-cols-form pt-5 pb-5 border-b border-zinc-200  ">
-          <label className="text-sm font-medium text-zinc-700">Role</label>
+          <label htmlFor="role" className="text-sm font-medium text-zinc-700">
+            Role
+          </label>
 
           <div className="">
             <InputRoot>
-              <InputControl id="firstName" placeholder="Web Developer"></InputControl>
+              <InputControl id="role" defaultValue="Web Developer"></InputControl>
             </InputRoot>
           </div>
         </div>
-
-        {/* End - Role */}
 
         {/* Country */}
         <div className=" grid grid-cols-form pt-5 pb-5 border-b border-zinc-200  ">
-          <label className="text-sm font-medium text-zinc-700">Country</label>
+          <label htmlFor="country" className="text-sm font-medium text-zinc-700">
+            Country
+          </label>
 
           <div className="">
             <InputRoot>
-              <InputControl id="firstName" placeholder="Web Developer"></InputControl>
+              <InputControl id="country" defaultValue="Brazil"></InputControl>
             </InputRoot>
           </div>
         </div>
-
-        {/* End - Country */}
 
         {/* Timezone */}
         <div className=" grid grid-cols-form pt-5 pb-5 border-b border-zinc-200  ">
-          <label className="text-sm font-medium text-zinc-700">Timezone</label>
+          <label htmlFor="timezone" className="text-sm font-medium text-zinc-700">
+            Timezone
+          </label>
 
           <div className="">
             <InputRoot>
-              <InputControl id="firstName" placeholder="Web Developer"></InputControl>
+              <InputControl id="timezone" defaultValue=""></InputControl>
             </InputRoot>
           </div>
         </div>
 
-        {/* End - Timezone */}
-      </form>
+        {/* Bio */}
+        <div className="flex items-center justify-between border-b  border-zinc-200 pt-5 pb-5  ">
+          <label htmlFor="bio" className="text-sm font-medium text-zinc-700">
+            Bio
+            <span className="mt-0.5 block text-sm font-normal text-zinc-500">Write a short introduction.</span>
+          </label>
+        </div>
 
-      {/* Final button */}
-      {/* <div className="flex flex-row gap-3 justify-end  border-t  border-zinc-200 pt-4 ">
-        <button type="button" className="py-2.5 px-4 text text-sm font-semibold border border-zinc-300 shadow text-zinc-700 rounded-lg bg-white hover:bg-zinc-50">
-          Cancel
-        </button>
-        <button type="button" className="py-2.5 px-4 text text-sm font-semibold rounded-lg shadow text-white  bg-violet-600 hover:bg-violet-700">
-          Save
-        </button>
-      </div> */}
-      {/* End- final button */}
+        {/* Portfolio projects */}
+        <div className="flex items-center justify-between border-b  border-zinc-200 pt-5 pb-5  ">
+          <label htmlFor="projects" className="text-sm font-medium text-zinc-700">
+            Portfolio projects
+            <span className="mt-0.5 block text-sm font-normal text-zinc-500">Share a few snippets of your work.</span>
+          </label>
+        </div>
+        {/* Final button */}
+        <div className="flex flex-row gap-3 justify-end   pt-4 ">
+          <button type="button" className="py-2.5 px-4 text text-sm font-semibold border border-zinc-300 shadow text-zinc-700 rounded-lg bg-white hover:bg-zinc-50">
+            Cancel
+          </button>
+          <button type="button" className="py-2.5 px-4 text text-sm font-semibold rounded-lg shadow text-white  bg-violet-600 hover:bg-violet-700">
+            Save
+          </button>
+        </div>
+      </form>
     </div>
   );
 }
