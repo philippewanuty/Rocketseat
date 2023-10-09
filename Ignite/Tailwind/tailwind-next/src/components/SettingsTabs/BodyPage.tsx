@@ -1,4 +1,4 @@
-import { Cloud, MailIcon, Search, User } from 'lucide-react';
+import { Cloud, MailIcon, Search, UploadCloud, User } from 'lucide-react';
 import { InputControl, InputPrefix, InputRoot } from '../sidebar/mainNavegation/Input';
 
 export function BodyPage() {
@@ -60,18 +60,25 @@ export function BodyPage() {
             Your photo
             <span className="mt-0.5 block text-sm font-normal text-zinc-500">This will be displayed on your profile.</span>
           </label>
+
           <div className="flex items-start gap-5">
             <div className="bg-violet-50 flex h-16 w-16 items-center justify-center rounded-full">
               <User className="w-8 h-8 text-violet-500" />
             </div>
-            <label htmlFor="photo" className="flex-1 mx-2 cursor-pointer flex flex-col items-center gap-3 rounded-lg border border-zinc-200 py-4 px-6 ">
-              <div className="bg-zinc-50 flex h-16 w-16 items-center justify-center rounded-full">
-                <Cloud className="w-5 h-5 " />
+
+            <label
+              htmlFor="photo"
+              className=" group flex-1 mx-2 cursor-pointer flex flex-col items-center gap-3 rounded-lg border border-zinc-200 py-4 px-6 shadow-sm hover:border-violet-200 hover:bg-violet-25"
+            >
+              <div className="bg-zinc-100 flex h-10 w-10 items-center justify-center rounded-full border-6 border-zinc-50 group-hover:border-violet-50   group-hover:bg-violet-100">
+                <UploadCloud className="w-5 h-5 text-zinc-600  group-hover:text-violet-600" />
               </div>
-              <span className="font-sm font-normal text-zinc-500">
-                <span className=" text-sm font-semibold text-violet-700 ">Click to upload</span> or drag and drop
-              </span>
-              <span className=" text-xs text-zinc-500">SVG, PNG, JPG or GIF (max. 800x400px)</span>
+              <div className="flex flex-col gap-1">
+                <span className="font-sm font-normal text-zinc-500  group-hover:text-violet-600">
+                  <span className=" text-sm font-semibold text-violet-700 ">Click to upload</span> or drag and drop
+                </span>
+                <span className=" text-xs text-zinc-500  group-hover:text-violet-600">SVG, PNG, JPG or GIF (max. 800x400px)</span>
+              </div>
             </label>
             <input type="file" className="sr-only" id="photo" />
           </div>
@@ -117,7 +124,7 @@ export function BodyPage() {
         </div>
 
         {/* Bio */}
-        <div className="flex items-center justify-between border-b  border-zinc-200 pt-5 pb-5  ">
+        <div className="grid grid-cols-form pt-5 pb-5 border-b  border-zinc-200 pt-5 pb-5  ">
           <label htmlFor="bio" className="text-sm font-medium text-zinc-700">
             Bio
             <span className="mt-0.5 block text-sm font-normal text-zinc-500">Write a short introduction.</span>
@@ -125,12 +132,29 @@ export function BodyPage() {
         </div>
 
         {/* Portfolio projects */}
-        <div className="flex items-center justify-between border-b  border-zinc-200 pt-5 pb-5  ">
+        <div className="grid grid-cols-form pt-5 pb-5 border-b  border-zinc-200 pt-5 pb-5  ">
           <label htmlFor="projects" className="text-sm font-medium text-zinc-700">
             Portfolio projects
             <span className="mt-0.5 block text-sm font-normal text-zinc-500">Share a few snippets of your work.</span>
           </label>
+
+          <label
+            htmlFor="projects"
+            className=" group flex-1 mx-2 cursor-pointer flex flex-col items-center gap-3 rounded-lg border border-zinc-200 py-4 px-6 shadow-sm hover:border-violet-200 hover:bg-violet-25"
+          >
+            <div className="bg-zinc-100 flex h-10 w-10 items-center justify-center rounded-full border-6 border-zinc-50 group-hover:border-violet-50   group-hover:bg-violet-100">
+              <UploadCloud className="w-5 h-5 text-zinc-600  group-hover:text-violet-600" />
+            </div>
+            <div className="flex flex-col gap-1">
+              <span className="font-sm font-normal text-zinc-500  group-hover:text-violet-600">
+                <span className=" text-sm font-semibold text-violet-700 ">Click to upload</span> or drag and drop
+              </span>
+              <span className=" text-xs text-zinc-500  group-hover:text-violet-600">SVG, PNG, JPG or GIF (max. 800x400px)</span>
+            </div>
+          </label>
+          <input type="file" className="sr-only" id="projects" />
         </div>
+
         {/* Final button */}
         <div className="flex flex-row gap-3 justify-end   pt-4 ">
           <button type="button" className="py-2.5 px-4 text text-sm font-semibold border border-zinc-300 shadow text-zinc-700 rounded-lg bg-white hover:bg-zinc-50">
