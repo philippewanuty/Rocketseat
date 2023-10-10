@@ -125,7 +125,7 @@ export function BodyPage() {
 
           <FileInput.Root>
             <FileInput.Trigger />
-            <FileInput.Control />
+            <FileInput.Control multiple />
           </FileInput.Root>
         </div>
 
