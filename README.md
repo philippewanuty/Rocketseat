@@ -12,19 +12,12 @@
  
 
 <h2> 💻 Meus Desafios </h2>
+<p>Desafios dos cursos ministrados pela rocketSeat</p>
 
-<!--<ul>
-  <li> Challange 0 - DevLink:   
-   - <a href="https://github.com/philippewanuty/Rocketseat/tree/main/Discover">GitHub</a>
-   - <a href="https://www.figma.com/file/FjiM34xDJSmTo0ScihnQPU/DevLinks-•-Projeto-Discover-(Community">Figma</a> 
-   - <a href="https://philippewanuty.com/Rocketseat/Discover/index.html">Resolution</a>
-  </li>
-
-</ul> -->
 
 <table border="1" style="text-align:center">
   <tr>
-    <th>Desafío</th>
+    <th>Desafio</th>
     <th>Nome</th>
     <th>Figma</th>
     <th>Readme</th>
@@ -69,6 +62,61 @@
   </tr>
   
 </table>
+
+
+<h2> 💻 #BoraCodar</h2>
+<p>Desafios semanais da Rocketseat</p>
+
+
+<table border="1" style="text-align:center">
+  <tr>
+    <th>Desafio</th>
+    <th>Nome</th>
+    <th>Figma</th>
+    <th>Readme</th>
+    <th>Repositório</th>
+    <th>Resumo</th>
+    <th>Tecnologias usadas</th>
+    <th>Online project</th>
+   
+    
+    
+  </tr>
+  <tr>
+    <td>------</td>
+    <td>------</td>
+    <td>------</td>
+    <td>------</td>
+    <td>------</td>
+    <td>------</td>
+    <td>------</td>
+    <td>------</td>
+    
+  </tr>
+  <tr>
+    <td>------</td>
+    <td>------</td>
+    <td>------</td>
+    <td>------</td>
+    <td>------</td>
+    <td>------</td>
+    <td>------</td>
+    <td>------</td>
+    
+  </tr>
+  <tr>
+    <td>-------</td> 
+    <td>------</td>
+    <td>------</td>
+    <td>------</td>
+    <td>------</td>
+    <td>------</td>
+    <td>------</td>
+    <td>------</td>
+  </tr>
+  
+</table>
+
 
 
 
