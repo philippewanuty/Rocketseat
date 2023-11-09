@@ -4,14 +4,14 @@
   
 <h1>ROCKETSEAT</h1> 
   
-  <p>Repository of my Front-End Challenges prepared by Rocketseat team.</p>
+  <p>Repositório dos meus Desafios Front-End preparados pela equipe Rocketseat.</p>
   
-  <img width="3%" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"> <img width="3%" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"> <img width="3%" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg"> 
+  <img width="3%" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"> <img width="3%" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"> <img width="3%" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">  <img width="3%" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" /> 
 
  </div>
  
 
-<h2> 💻 My Exercices </h2>
+<h2> 💻 Meus Desafios </h2>
 
 <!--<ul>
   <li> Challange 0 - DevLink:   
@@ -24,12 +24,14 @@
 
 <table border="1" style="text-align:center">
   <tr>
-    <th>Challenge</th>
-    <th>Name</th>
+    <th>Desafío</th>
+    <th>Nome</th>
     <th>Figma</th>
     <th>Readme</th>
-    <th>Resume</th>
+    <th>Resumo</th>
+    <th>Tecnologias usadas</th>
     <th>Online project</th>
+   
     
     
   </tr>
@@ -38,7 +40,8 @@
     <td>DevLinks </td>
     <td><a href="https://www.figma.com/community/file/1187422022288947321">Link</a> </td>
     <td><a href="https://philippewanuty.com/Rocketseat/Discover/Discover.html">Link</a> </td>
-    <td>DevLinks is a responsive, theme-switching link aggregator that you can use as a business card on your social networks.</td>
+    <td>DevLinks é um agregador de links responsivo e com mudança de tema que você pode usar como cartão de visita em suas redes sociais. </td>
+    <td> HTML, CSS , Javascrtipt </td>
      <td><a href="https://philippewanuty.com/Rocketseat/Discover/index.html">Link</a> </td>
   </tr>
   <tr>
