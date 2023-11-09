@@ -28,6 +28,7 @@
     <th>Nome</th>
     <th>Figma</th>
     <th>Readme</th>
+    <th>Repositório</th>
     <th>Resumo</th>
     <th>Tecnologias usadas</th>
     <th>Online project</th>
@@ -40,6 +41,7 @@
     <td>DevLinks </td>
     <td><a href="https://www.figma.com/community/file/1187422022288947321">Link</a> </td>
     <td><a href="https://philippewanuty.com/Rocketseat/Discover/Discover.html">Link</a> </td>
+    <td><a href="https://github.com/philippewanuty/Rocketseat/tree/main/Discover">Link</a></td>
     <td>DevLinks é um agregador de links responsivo e com mudança de tema que você pode usar como cartão de visita em suas redes sociais. </td>
     <td> HTML, CSS , Javascrtipt </td>
      <td><a href="https://philippewanuty.com/Rocketseat/Discover/index.html">Link</a> </td>
@@ -51,10 +53,14 @@
     <td>------</td>
     <td>------</td>
     <td>------</td>
+    <td>------</td>
+    <td>------</td>
     
   </tr>
   <tr>
     <td>-------</td> 
+    <td>------</td>
+    <td>------</td>
     <td>------</td>
     <td>------</td>
     <td>------</td>
