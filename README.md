@@ -30,7 +30,7 @@
     
   </tr>
   <tr>
-    <td> N#0</td>
+    <td> Discovery N#1</td>
     <td>DevLinks </td>
     <td><a href="https://www.figma.com/community/file/1187422022288947321">Link</a> </td>
     <td><a href="https://philippewanuty.com/Rocketseat/Discover/Discover.html">Link</a> </td>
