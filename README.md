@@ -83,14 +83,14 @@
     
   </tr>
   <tr>
-    <td>------</td>
-    <td>------</td>
-    <td>------</td>
-    <td>------</td>
-    <td>------</td>
-    <td>------</td>
-    <td>------</td>
-    <td>------</td>
+    <td>#01</td>
+    <td>Player de música</td>
+    <td><a href="https://www.figma.com/community/file/1195050524500542670/player-de-musica-desafio-01">Link</a></td>
+    <td><a href="https://github.com/philippewanuty/MusicPlayer_C1#readme">Link</a></td>
+    <td><a href="https://github.com/philippewanuty/MusicPlayer_C1">Link</a></td>
+    <td>Desafio Front-End para representar um player de música</td>
+    <td> HTML,CSS, ReactJS, Styled components</td>
+    <td><a href="https://music-player-c1.vercel.app">Link</a></td>
     
   </tr>
   <tr>
